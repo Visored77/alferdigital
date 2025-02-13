@@ -1,0 +1,175 @@
+header{
+    width:  100%;
+    height: 100px;
+    background-color: gray;
+}
+
+
+#logo{
+
+    width: 250px;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+
+.menu{
+    margin-top: 20px;
+    width: 800px;
+    height: 50px;
+    float: right;
+    align-items: center;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    float:left;
+}
+
+.menu ul li a{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: black;
+
+}
+
+.banner{
+    width: 1000px;
+    
+}
+
+.banner-container {
+    margin-top: 50px; 
+    text-align : center;
+
+}
+
+.logo_alfer{
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+
+.grid-container {
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .cards{
+    width: 100%;
+    text-align: center;
+  }
+
+  .grid-item{
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .aviso{
+    height: 100px;
+    padding: 0px 30px;
+  }
+
+  .textcard{
+    font-size: 20px;
+    font-family: "Open Sans", Sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .tittlecard{
+    font-size: 25px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 900;
+    color: black;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #f79636;
+    text-decoration: none;
+  }
+
+  .button {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: black;
+  }
+
+  .footer {
+    width:  100%;
+    background-image: url("../Imagenes/footer.png");
+    height: 280px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .footer-img{
+    width:  100%;
+    height: 20px;
+  }
+
+  .video {
+    margin-top: 20px;
+    width: 75%;
+    margin-left: 12.5%;
+    height: 500px;
+
+  }
+
+  .siguenos {
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    color: #de316b;
+    padding: 15px 15px;
+    width: 270px;
+    border-radius: 8px;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    
+  }
+
+  .facebook {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+  }
+
+  .whatsapp {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 170px;
+    left: 180px;
+  }
+
+  .diseño {
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: white;
+  }
+
+  
+
+  
+
